@@ -107,3 +107,51 @@ In the first example, the `\n` escape sequence is used to insert a newline chara
 * When using escape sequences within strings, it's often a good practice to use double quotes to avoid conflicts with single quotes. For example, `"\'"` represents a single quote character.
 
 By understanding and using escape sequences, you can create more complex and accurate strings in your Java programs.
+
+## Java Comments
+
+Comments in Java are used to explain the code, make it more readable, and provide documentation. They are ignored by the compiler, so they have no effect on the program's execution.
+
+There are three types of comments in Java:
+
+1. **Single-line comments:**
+   - Start with `//` and end at the end of the line.
+   - Example:
+     ```java
+     // This is a single-line comment
+     ```
+
+2. **Multi-line comments:**
+   - Start with `/*` and end with `*/`.
+   - Can span multiple lines.
+   - Example:
+     ```java
+     /* This is a
+     multi-line comment */
+     ```
+
+3. **Javadoc comments:**
+   - Start with `/**` and end with `*/`.
+   - Used to generate API documentation.
+   - Can contain HTML tags.
+   - Example:
+     ```java
+     /**
+      * This is a Javadoc comment.
+      *
+      * @param name The name to be printed.
+      */
+     public void printName(String name) {
+         System.out.println("Hello, " + name + "!");
+     }
+     ```
+
+**Best Practices for Comments:**
+
+* **Use comments to explain non-obvious code.** Avoid commenting on trivial or self-explanatory code.
+* **Keep comments concise and to the point.** Avoid writing long, rambling comments.
+* **Update comments whenever you modify the code.** Ensure that comments accurately reflect the current state of the code.
+* **Use consistent formatting for comments.** This makes the code easier to read and understand.
+* **Use Javadoc comments to document public methods and classes.** This helps others understand how to use your code.
+
+By following these guidelines, you can write well-documented and maintainable Java code.
