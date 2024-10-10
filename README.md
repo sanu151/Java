@@ -28,7 +28,7 @@ Java is a high-level, object-oriented programming language known for its platfor
 
 The language developed for this project was initially called Oak, but it was later renamed Java. The name was inspired by a coffee shop near Sun's offices.
 
-### Key Milestones in Java's History:
+#### Key Milestones in Java's History:
 
 * **1995:** Java 1.0 was released, marking its official debut.
 * **1996:** Java became the official language for developing applications for Sun's Solaris operating system.
@@ -42,7 +42,7 @@ The language developed for this project was initially called Oak, but it was lat
 
 Java has continued to evolve and adapt over the years, remaining a popular and versatile programming language used in various domains, from enterprise applications to mobile app development.
 
-**Simple "Hello, World!" program in Java:**
+### Simple "Hello, World!" program in Java:
 
 ```java
 public class HelloWorld {
@@ -52,7 +52,7 @@ public class HelloWorld {
 }
 ```
 
-### Explanation:
+#### Explanation:
 
 1. **`public class HelloWorld`:** This line declares a public class named `HelloWorld`. Classes are the fundamental building blocks of Java programs.
 2. **`public static void main(String[] args)`:** This is the main method of the program. It's the entry point where execution begins.
@@ -64,7 +64,7 @@ public class HelloWorld {
    - `System.out`: This refers to the standard output stream (usually the console).
    - `println()`: This method prints the given string to the console and adds a newline character.
 
-### To run this program:
+#### To run this program:
 
 1. **Save the code:** Save the code as a `.java` file (e.g., `HelloWorld.java`).
 2. **Compile the code:** Use the Java compiler (javac) to compile the `.java` file into a `.class` file (e.g., `javac HelloWorld.java`).
@@ -72,7 +72,7 @@ public class HelloWorld {
 
 This will output "Hello, World!" to the console.
 
-**Java Escape Sequences**
+## Java Escape Sequences
 
 Escape sequences are special character combinations used to represent characters that are difficult to type directly or have special meanings in Java. They are preceded by a backslash (`\`) to indicate that the following characters should be interpreted as an escape sequence.
 
