@@ -278,6 +278,22 @@ Reference data types represent objects and refer to memory addresses where the o
 ![image](https://github.com/user-attachments/assets/6f2ecc05-2ecd-4b37-a6a0-1574c6f3ab7b)
 
 
+| Data Type | Default Value | Default Size (bits) |
+|---|---|---|
+| boolean | false | 1 |
+| char | '\u0000' (null character) | 16 |
+| byte | 0 | 8 |
+| short | 0 | 16 |
+| int | 0 | 32 |
+| long | 0L | 64 |
+| float | 0.0f | 32 |
+| double | 0.0d | 64 |
+
+**Note:**
+
+* The default size in bits is the standard size used for the data type. However, the actual size may vary depending on the specific JVM implementation.
+* The `char` data type uses 16 bits to represent Unicode characters, which allows for a wider range of characters compared to 8-bit ASCII.
+
 **Example:**
 
 ```java
