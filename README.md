@@ -202,7 +202,8 @@ A Java program typically goes through several phases from creation to execution.
 
 ### Flowchart
 
-![image](https://github.com/user-attachments/assets/9d315fe8-2e5a-42c8-abc6-d560dae3866f)
+![image](https://github.com/user-attachments/assets/79495bf7-31bc-4bea-8dab-812660c1d1a1)
+
 
 
 **Note:** These phases are repeated for each class in a Java program. The JVM manages the entire process seamlessly, providing a platform-independent and secure execution environment.
