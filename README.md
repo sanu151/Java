@@ -155,3 +155,54 @@ There are three types of comments in Java:
 * **Use Javadoc comments to document public methods and classes.** This helps others understand how to use your code.
 
 By following these guidelines, you can write well-documented and maintainable Java code.
+
+## Phases of a Java Program
+
+A Java program typically goes through several phases from creation to execution. Let's break down these phases with detailed steps and a flowchart:
+
+### 1. **Source Code Writing**
+* **Step 1:** Create a new text file using a text editor or IDE.
+* **Step 2:** Write your Java code in the file, following Java's syntax and semantics.
+* **Example:**
+  ```java
+  public class HelloWorld {
+      public static void main(String[] args) {
+          System.out.println("Hello, World!");
+      }
+  }
+  ```
+
+### 2. **Compilation**
+* **Step 1:** Save the file with a `.java` extension (e.g., `HelloWorld.java`).
+* **Step 2:** Use the Java compiler (javac) to compile the source code.
+* **Command:** `javac HelloWorld.java`
+* **Result:** The compiler creates a `.class` file (e.g., `HelloWorld.class`) containing the bytecode.
+
+### 3. **Class Loading**
+* **Step 1:** The Java Virtual Machine (JVM) loads the `.class` file into memory.
+
+### 4. **Bytecode Verification**
+* **Step 1:** The JVM verifies the bytecode to ensure it's safe and adheres to Java's rules.
+* **Step 2:** If the verification fails, the JVM throws an error and the program terminates.
+
+### 5. **Linking**
+* **Step 1:** The JVM links the loaded class with other necessary classes and libraries.
+* **Step 2:** This involves resolving references to external classes and methods.
+
+### 6. **Initialization**
+* **Step 1:** The JVM initializes static variables and executes static blocks of code.
+
+### 7. **Execution**
+* **Step 1:** The JVM executes the bytecode instructions, carrying out the program's logic.
+* **Step 2:** This involves creating objects, calling methods, and performing calculations.
+
+### 8. **Garbage Collection**
+* **Step 1:** The JVM automatically manages memory allocation and deallocation.
+* **Step 2:** When objects are no longer needed, they are reclaimed by the garbage collector.
+
+### Flowchart
+
+![image](https://github.com/user-attachments/assets/9d315fe8-2e5a-42c8-abc6-d560dae3866f)
+
+
+**Note:** These phases are repeated for each class in a Java program. The JVM manages the entire process seamlessly, providing a platform-independent and secure execution environment.
