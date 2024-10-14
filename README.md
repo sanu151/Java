@@ -277,8 +277,7 @@ Reference data types represent objects and refer to memory addresses where the o
 
 ![image](https://github.com/user-attachments/assets/6f2ecc05-2ecd-4b37-a6a0-1574c6f3ab7b)
 
-![image](https://github.com/user-attachments/assets/ef755b65-46d6-45c9-8340-f3c505b7dde4)
-
+![image](https://github.com/user-attachments/assets/818ad62a-c46e-4e9e-b767-76234e2d9dea)
 
 **Note:**
 
